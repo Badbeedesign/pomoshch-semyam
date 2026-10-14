@@ -26,3 +26,6 @@
 
 /* Большая кнопка вместо формы */
 .application-cta{display:flex;align-items:center;justify-content:center;width:100%;min-height:70px;margin-top:24px;text-align:center;font-size:19px;font-weight:700;box-sizing:border-box}.application-note{margin-top:15px;line-height:1.55}
+
+/* Free community block */
+.free-chat{background:#e9f1ec}.free-chat-grid{display:grid;grid-template-columns:1.25fr 0.75fr;gap:3rem;align-items:center}.free-chat h2{margin-top:1rem}.free-chat-btn{display:inline-flex;margin-top:1rem}.free-chat-side{border:1px solid rgba(24,62,48,.18);padding:2rem;border-radius:16px;background:rgba(255,255,255,.55)}.free-chat-side h3{margin-top:0}@media(max-width:760px){.free-chat-grid{grid-template-columns:1fr;gap:1.5rem}.free-chat-side{padding:1.4rem}}
